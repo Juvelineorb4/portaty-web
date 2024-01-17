@@ -5,8 +5,7 @@ const useExcel = () => {
 
   const uploadExcel = async (data) => {
     const excel = data.target.files[0];
-    console.log(excel);
-    return await fetchExcel(excel);
+    return fetchExcel(excel);
   };
 
   const fetchExcel = async (file) => {
@@ -14,7 +13,6 @@ const useExcel = () => {
     const workbook = read(excel);
     const worksheet = workbook.Sheets[workbook.SheetNames[0]];
     const data = utils.sheet_to_json(worksheet);
-    console.log(data);
     setUpload(data);
     return data;
   };
