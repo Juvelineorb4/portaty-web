@@ -17,13 +17,21 @@ const Home = () => {
           </h2>
           <p className={styles.subtitle}>{home.subtitle}</p>
           <div className={styles.buttons}>
-            <Link href={home.buttons.one.link} className={styles.buttonGet} target='_blank'>
+            <Link
+              href={home.buttons.one.link}
+              className={styles.buttonGet}
+              target="_blank"
+            >
               <Image src={home.google} alt="" width={30} height={30} />
               <p className={styles.pale}>{`|`}</p>
 
               <p className={styles.textButton}>{home.buttons.one.title}</p>
             </Link>
-            <Link href={home.buttons.two.link} className={styles.buttonGet}>
+            <Link
+              href={home.buttons.two.link}
+              className={styles.buttonGet}
+              target="_blank"
+            >
               <Image src={home.apple} alt="" width={30} height={30} />
               <p className={styles.pale}>{`|`}</p>
 
