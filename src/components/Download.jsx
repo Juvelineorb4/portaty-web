@@ -24,7 +24,11 @@ const Download = () => {
 
             <p className={styles.textButton}>{download.buttons.one.title}</p>
           </Link>
-          <Link href={download.buttons.two.link} className={styles.buttonApple}>
+          <Link
+            href={download.buttons.two.link}
+            className={styles.buttonApple}
+            target="_blank"
+          >
             <Image src={download.apple} alt="" width={30} height={30} />
             <p className={styles.pale}>{`|`}</p>
 

@@ -45,8 +45,8 @@ export const home = {
     },
     two: {
       id: "two-btn",
-      title: "Proximamente",
-      link: "/",
+      title: "App Store",
+      link: "https://apps.apple.com/us/app/portaty/id6497407592",
       icon: "bx bxs-chevrons-right",
     },
     three: {
@@ -99,7 +99,7 @@ export const features = {
 
 export const whatsis = {
   ad: "Descubre negocios",
-  first: "Nosotros somos",
+  first: "Somos",
   second: " PORTATY",
   paragraph: `Portaty no es solo una aplicación, es un puente que une a negocios y consumidores en un mundo
   cada vez más conectado. Al ofrecer una experiencia de usuario única y beneficios tanto para los
@@ -168,8 +168,8 @@ export const download = {
     },
     two: {
       id: "two-btn",
-      title: "Proximamente",
-      link: "/",
+      title: "App Store",
+      link: "https://apps.apple.com/us/app/portaty/id6497407592",
       icon: "bx bxs-chevrons-right",
     },
   },
