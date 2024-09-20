@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { home } from "@/constants";
@@ -15,7 +15,8 @@ const Home = () => {
           <h2 className={styles.title}>
             <span>{home.first}</span> {home.second}{" "}
           </h2>
-          <p className={styles.subtitle}>{home.subtitle}</p>
+
+          <p className={styles.subtitle}>{home.subtitle} </p>
           <div className={styles.buttons}>
             <Link
               href={home.buttons.one.link}
@@ -41,12 +42,7 @@ const Home = () => {
         </div>
         <div className={styles.right}>
           <Image src={home.mainImage} alt="" width={1200} height={1000} />
-          {/* <Link href={home.buttons.three.link} className={styles.buttonVideo} target='_blank'>
-            <i className={home.buttons.three.icon}></i>
-            <p>{home.buttons.three.title}</p>
-          </Link> */}
         </div>
-        {/* <iframe src="https://portaty.grafana.net/dashboard-solo/new?orgId=1&tab=query&showCategory=Override+1&from=1709151897686&to=1709238297686&panelId=1" width="450" height="200" frameborder="0"></iframe> */}
       </div>
     </div>
   );

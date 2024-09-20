@@ -80,6 +80,29 @@ const Politicas = () => {
         recibir correos electrónicos promocionales de nosotros.
       </p>
       <br />
+      <h2>Solicitudes de Eliminación de Cuenta</h2>
+      <p>
+        Si deseas eliminar tu cuenta registrada con nosotros, puedes hacerlo
+        enviando una solicitud a nuestra dirección de correo electrónico. Por
+        favor, incluye la siguiente información en tu solicitud:
+      </p>
+      <ul>
+        <li>Tu nombre completo.</li>
+        <li>La dirección de correo electrónico asociada a tu cuenta.</li>
+        <li>
+          Una breve explicación del motivo de la solicitud de eliminación
+          (opcional).
+        </li>
+      </ul>
+      <p>
+        Envía tu solicitud a:{" "}
+        <a href="mailto:soporte@portaty.com">soporte@portaty.com</a>
+      </p>
+      <p>
+        Procesaremos tu solicitud y eliminaremos tu cuenta en un plazo de 30
+        días hábiles. Ten en cuenta que una vez eliminada, no podremos recuperar
+        la información de tu cuenta.
+      </p>
       <h2>Seguridad de su información</h2>
       <br />
       <p>

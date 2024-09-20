@@ -1,3 +1,4 @@
+
 import {
   Navbar,
   Home,
@@ -11,6 +12,8 @@ import styles from "@/styles/Main.module.css";
 import Image from "next/image";
 
 export default function Main() {
+
+
   return (
     <div className={styles.container}>
       <Navbar />

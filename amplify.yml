@@ -1,0 +1,24 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - npm run build
+  redirects:
+    - from: "/.well-known/assetlinks.json"
+      to: "/assetlinks.json"
+      status: 200
+  rewrites:
+    - source: </^\/assetlinks\.json$/>
+      target: /assetlinks.json
+      contentType: application/json
+  artifacts:
+    baseDirectory: .next
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - node_modules/**/*
