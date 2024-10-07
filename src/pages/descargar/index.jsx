@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import styles from "@/styles/Descargar.module.css";
 
 const Descargar = () => {
   const router = useRouter();
@@ -18,8 +19,8 @@ const Descargar = () => {
   }, [router]);
 
   return (
-    <div>
-      <h1>Redirigiendo...</h1>
+    <div className={styles.container}>
+      <h1 className={styles.redirectingText}>Redirigiendo...</h1>
     </div>
   );
 };
