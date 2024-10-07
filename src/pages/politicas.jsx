@@ -1,133 +1,159 @@
+// Importa los módulos necesarios de React
 import React from "react";
 
-const Politicas = () => {
+// Componente de Política de Privacidad
+const PrivacyPolicy = () => {
   return (
     <div
       style={{
-        padding: 20,
+        padding: "20px",
+        maxWidth: "800px",
+        margin: "auto",
+        backgroundColor: "#f4f4f4",
       }}
     >
-      <h1>Políticas de Privacidad de Portaty</h1>
-      <br />
-
-      <h2>Introducción</h2>
-      <br />
+      <h1>Política de Privacidad de Portaty</h1>
+      <p style={{ fontSize: "0.9em", color: "#666" }}>
+        Última actualización: 07/10/2024
+      </p>
 
       <p>
-        En Portaty, nos comprometemos a proteger la privacidad de nuestros
-        usuarios. Esta Política de Privacidad describe cómo recopilamos,
-        utilizamos y protegemos la información personal que usted nos
-        proporciona a través de nuestra aplicación móvil.
+        En <strong>Portaty</strong>, nos comprometemos a proteger la privacidad
+        de nuestros usuarios. Esta política de privacidad describe cómo
+        recopilamos, utilizamos, almacenamos y compartimos la información
+        personal que usted nos proporciona a través de nuestra aplicación móvil
+        cuando se registra o inicia sesión usando <strong>Google</strong> o{" "}
+        <strong>Apple</strong>.
       </p>
-      <br />
 
       <h2>Información que recopilamos</h2>
-      <br />
-
       <p>
-        Recopilamos dos tipos de información de nuestros usuarios:
-        <br />
-        <br />
-        Información personal: Esta información incluye su nombre, dirección de
-        correo electrónico, número de teléfono, dirección postal, información de
-        pago y cualquier otra información que usted nos proporcione
-        voluntariamente.
-        <br />
-        <br />
-        Información no personal: Esta información incluye datos de uso de la
-        aplicación, como las páginas que visita, las búsquedas que realiza y los
-        anuncios en los que hace clic.
-      </p>
-      <br />
-      <h2>Cómo utilizamos su información</h2>
-      <br />
-      <p>
-        Utilizamos su información personal para:
-        <br />
-        <br />
-        Proporcionarle los servicios que solicita: Por ejemplo, utilizamos su
-        información para procesar sus pedidos, comunicarnos con usted sobre su
-        cuenta y brindarle asistencia al cliente.
-        <br />
-        <br />
-        Mejorar nuestra aplicación: Utilizamos la información que recopilamos
-        para mejorar la experiencia del usuario y la funcionalidad de la
-        aplicación.
-        <br />
-        <br />
-        Personalizar su experiencia: Utilizamos la información que recopilamos
-        para mostrarle contenido y anuncios relevantes para sus intereses.
-        <br />
-        <br />
-        Proteger nuestros derechos legales: Podemos utilizar su información para
-        investigar y prevenir fraudes, abusos y otras actividades ilegales.
-      </p>
-      <br />
-      <h2>Cómo compartimos su información</h2>
-      <br />
-      <p>
-        No compartimos su información personal con terceros sin su
-        consentimiento. Podemos compartir su información no personal con
-        terceros para fines de investigación y análisis.
-      </p>
-      <br />
-      <h2>Sus opciones</h2>
-      <br />
-      <p>
-        Usted tiene control sobre su información personal. Puede acceder,
-        actualizar o eliminar su información personal en cualquier momento a
-        través de la configuración de su cuenta. También puede optar por no
-        recibir correos electrónicos promocionales de nosotros.
-      </p>
-      <br />
-      <h2>Solicitudes de Eliminación de Cuenta</h2>
-      <p>
-        Si deseas eliminar tu cuenta registrada con nosotros, puedes hacerlo
-        enviando una solicitud a nuestra dirección de correo electrónico. Por
-        favor, incluye la siguiente información en tu solicitud:
+        Al utilizar los servicios de inicio de sesión de <strong>Google</strong>{" "}
+        o <strong>Apple</strong>, recopilamos la siguiente información:
       </p>
       <ul>
-        <li>Tu nombre completo.</li>
-        <li>La dirección de correo electrónico asociada a tu cuenta.</li>
         <li>
-          Una breve explicación del motivo de la solicitud de eliminación
-          (opcional).
+          <strong>Información Básica de Identidad</strong>:
+          <ul>
+            <li>
+              <strong>Google</strong>: Nombre, apellido, dirección de correo
+              electrónico, género (opcional) y fecha de nacimiento (opcional).
+            </li>
+            <li>
+              <strong>Apple</strong>: Nombre, apellido, dirección de correo
+              electrónico, género (opcional) y fecha de nacimiento (opcional).
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Información de Uso</strong>: Datos de interacción con la
+          aplicación, como la fecha y hora de inicio de sesión.
         </li>
       </ul>
+
+      <h2>Cómo utilizamos su información</h2>
       <p>
-        Envía tu solicitud a:{" "}
-        <a href="mailto:soporte@portaty.com">soporte@portaty.com</a>
+        Utilizamos la información recopilada para los siguientes propósitos:
       </p>
+      <ul>
+        <li>
+          <strong>Autenticación y Gestión de Cuentas</strong>: Para permitirle
+          registrarse y autenticarse de forma segura en nuestra aplicación
+          utilizando su cuenta de <strong>Google</strong> o{" "}
+          <strong>Apple</strong>. También para completar y gestionar su perfil
+          en la aplicación de manera automática.
+        </li>
+        <li>
+          <strong>Personalización del Servicio</strong>: Adaptar el contenido y
+          las funciones de la aplicación según sus intereses y preferencias,
+          basándonos en la información proporcionada.
+        </li>
+        <li>
+          <strong>Comunicación</strong>: Enviar notificaciones importantes
+          relacionadas con su cuenta o la seguridad de la aplicación.
+        </li>
+      </ul>
+
+      <h2>Almacenamiento y seguridad de la información</h2>
       <p>
-        Procesaremos tu solicitud y eliminaremos tu cuenta en un plazo de 30
-        días hábiles. Ten en cuenta que una vez eliminada, no podremos recuperar
-        la información de tu cuenta.
+        La información recopilada se almacena en servidores seguros y se protege
+        mediante medidas de seguridad estándar de la industria, como
+        encriptación y controles de acceso restringidos. Nos comprometemos a
+        conservar la información únicamente durante el tiempo necesario para
+        cumplir con los fines descritos en esta política o según lo exija la
+        ley.
       </p>
-      <h2>Seguridad de su información</h2>
-      <br />
+
+      <h2>Cómo compartimos su información</h2>
       <p>
-        Tomamos medidas de seguridad razonables para proteger su información
-        personal contra el acceso no autorizado, el uso indebido o la
-        divulgación. Sin embargo, ninguna medida de seguridad es perfecta y no
-        podemos garantizar la seguridad absoluta de su información.
+        No compartimos la información personal obtenida a través de{" "}
+        <strong>Google</strong> o <strong>Apple</strong> con terceros sin su
+        consentimiento, salvo en los siguientes casos:
       </p>
-      <br />
+      <ul>
+        <li>
+          <strong>Cumplimiento legal</strong>: Cuando sea necesario para cumplir
+          con requisitos legales o regulatorios.
+        </li>
+        <li>
+          <strong>Proveedores de servicios</strong>: Con proveedores que nos
+          ayudan en el desarrollo y mantenimiento de la aplicación, siempre bajo
+          acuerdos que garantizan la confidencialidad y seguridad de sus datos.
+        </li>
+      </ul>
+
+      <h2>Opciones y control del usuario</h2>
+      <p>
+        Los usuarios pueden gestionar sus permisos y revocar el acceso a sus
+        cuentas de <strong>Google</strong> o <strong>Apple</strong> en cualquier
+        momento a través de las configuraciones de sus cuentas:
+      </p>
+      <ul>
+        <li>
+          <strong>Google</strong>: Los usuarios pueden gestionar o revocar el
+          acceso desde la configuración de seguridad de su cuenta de Google.
+        </li>
+        <li>
+          <strong>Apple</strong>: Los usuarios pueden gestionar el inicio de
+          sesión con Apple desde las configuraciones de iCloud en sus
+          dispositivos o visitando{" "}
+          <a
+            href="https://account.apple.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            account.apple.com
+          </a>
+          .
+        </li>
+      </ul>
+
+      <h2>Cumplimiento con las Políticas de Google y Apple</h2>
+      <p>
+        Cumplimos con las <strong>políticas de uso limitado</strong> de{" "}
+        <strong>Google</strong> y las <strong>pautas de privacidad</strong> de{" "}
+        <strong>Apple</strong> para el uso de sus botones de inicio de sesión.
+        Nuestro uso de la información proporcionada se limita a los fines
+        específicos descritos en esta política, garantizando la privacidad y
+        seguridad de sus datos en todo momento.
+      </p>
+
       <h2>Cambios en esta política</h2>
-      <br />
       <p>
-        Podemos actualizar esta Política de Privacidad de vez en cuando. Le
-        notificaremos cualquier cambio importante en la forma en que tratamos su
-        información personal.
+        Podemos actualizar esta política de privacidad para reflejar cambios en
+        la forma en que tratamos su información personal o para cumplir con
+        nuevas regulaciones. Le notificaremos sobre cualquier cambio
+        significativo y actualizaremos la fecha de la última modificación.
       </p>
-      <br />
+
       <h2>Contacto</h2>
-      <br />
       <p>
-        Si tiene alguna pregunta sobre esta Política de Privacidad, puede
-        contactarnos a través de la aplicación o por correo electrónico.
+        Si tiene alguna pregunta sobre esta política de privacidad o desea
+        ejercer sus derechos de privacidad, puede contactarnos en:{" "}
+        <a href="mailto:soporte@portaty.com">soporte@portaty.com</a>
       </p>
     </div>
   );
 };
 
-export default Politicas;
+export default PrivacyPolicy;

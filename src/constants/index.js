@@ -249,7 +249,7 @@ export const footer = {
       {
         id: "pages-1",
         title: "Términos de uso",
-        link: "/",
+        link: "/terminos",
       },
       {
         id: "pages-2",
